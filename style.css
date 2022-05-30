@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+body {
+    margin: 0 0;
+    background-size: cover;
+    color: aliceblue;
+    
+    background-attachment: fixed;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0.589); 
+    display: flex;
+    flex-direction: column;
+    width: 115.78947368421052vh;
+    z-index: -23;
+    margin: 20px auto;
+    padding: 20px 80px;
+    border-radius: 16px;
+}
+
+.search {
+    margin: 30px auto;
+    padding: 10px 10px;
+    font-size: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.name {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 80px;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px 100px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+details{
+    font-size: 30px;
+}
+
+details:hover{
+    cursor: pointer;
+}
+
+details summary{
+    margin-bottom: 20px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+details p{
+    margin-bottom: 20px;
+    border-left: 4px solid white;
+    padding: 20px;
+}
